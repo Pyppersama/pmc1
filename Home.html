@@ -27,7 +27,8 @@
 		<section class="header">
 			<nav>
 				<img src="pmcdarklogo.png">
-				<div class="nav-links">
+				<div class="nav-links" id="navLinks">
+					<img src="images/exit.png" class="exit" alt="exit" onclick ="closeNav()"/>
 					<ul>
 					<li> <a href="" >HOME</a></li>
 					<li> <a href="" >ABOUT</a></li>
@@ -36,6 +37,7 @@
 					<li> <a href="" >CONTACT US</a></li>
 					</ul>			
 				</div>
+				<img src="images/menu.png" class="menu" alt ="menu" onclick ="openNav()"/>
 		   </nav>
 			
 		   <div class="text-box">
@@ -51,7 +53,15 @@
 		
 		</section>
 	
+	<script>
+	function openNav() {
+	document.getElementById("navLinks").style.width = "200px";
+	}
 	
+	function closeNav() {
+	document.getElementById("navLinks").style.width = "0";
+	}
+	</script>
 	
 	</body>
 	
