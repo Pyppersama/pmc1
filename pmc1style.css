@@ -1,0 +1,388 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header{
+	min-height:100vh;
+	width:100%;
+
+}
+
+nav{
+	display:flex;
+	padding:2% 6%;
+	justify-content:space-between;
+	align-items::center;
+}
+
+nav img{
+	width:101px;
+}
+
+.nav-links {
+	flex:1;
+	text-align:right;
+}
+
+.nav-links ul li{
+	list-style:none;
+	display:inline-block;
+	padding:8px 12px;
+	position:relative;
+	margin-top:19px;
+}
+
+.nav-links ul li a{
+	color:#fff;
+	text-decoration:none;
+	font-size:15px;
+	border:1px solid #4169e1;
+	border-radius:13px;
+	padding:5px 8px;
+	background:#4169e1;
+	
+}
+
+.nav-links ul li a:hover{
+	background:#ffe5b4;
+	
+}
+
+.nav-links ul li a:hover{
+	background:#ffe5b4;
+	color:#4169e1;
+}
+.text-box {
+	color:#fff;
+	width:90%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);	
+	text-align:center;
+	margin:(10px 0 40px);
+}
+
+.text-box h1{
+	font-size:100px;
+}
+
+.text-box h3{
+	font-size:50px;
+	margin-top:-47px;
+	margin-bottom:18px;
+}
+
+.text-box p{
+	font-size:20px;
+}
+
+.pmc-btn{
+	border:1px solid #fff;
+	display:inline-block;
+	text-decoration:none;
+	color:#fff;
+	margin-top:20px;
+	padding:22px 50px;
+	position:relative;
+	cursor:pointer;
+}
+
+.pmc-btn:hover{
+	background:#ffe5b4;
+	border:#ffe5b4;
+	color:#000;
+	transition:1s;
+}
+
+nav .exit{
+		display:none;
+	}
+	
+
+nav .menu{
+		display:none;
+}
+
+
+
+/* the styling of the SERVICES section*/
+
+
+.services{
+	width:80%;
+	margin:auto;
+	text-align:center;
+	padding-top:100px;
+}
+
+.services h2{
+	font-size:36px;
+	font-weight:600;
+}
+.services p{
+	font-size:21px;
+	color:#777;
+	font-weight:400;
+	line-height:22px;
+	padding:10px;
+}
+
+.half{
+	margin-top:5%;
+	display:flex;
+	justify-content:space-between;
+}
+
+.halff{
+	margin-top:13px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.ser{
+	flex-basis:46%;
+	background:#fcf1db;
+	border-radius:10px;
+	margin-bottom:50px;
+	padding:20px 12px;
+	box-sizing:border-box;
+	transition:0.5s;
+	text-align:justify;
+}
+
+.services h3{
+	text-align:center;
+	font-weight:600;
+	margin:10px 0;
+}
+
+.ser:hover{
+	box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.about{
+	width:90%;
+	margin:auto;
+}
+
+.about h2{
+	font-size:56px;
+	text-align:center;
+	
+}
+
+.aboutimg{
+	color:#fff;
+}
+
+.aboutpara{
+	text-align:justify;
+}
+
+.abouttotal{
+	display:flex;
+	justify-content:space-between;
+	margin-top:15px;
+	
+}
+
+.our{
+flex-basis:44%;
+	background:#fcf1db;
+	border-radius:10px;
+	margin-bottom:50px;
+	padding:20px 12px;
+	box-sizing:border-box;
+	transition:0.5s;
+	text-align:center
+}
+
+.our:hover{
+	box-shadow:0 0 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.our h3{
+	font-size:25px;
+	font-weight:600;
+	margin-bottom:17px;
+}
+
+.our p{
+	color:#777;
+}
+.contact{
+	background: #0b1430;
+	margin-top:50px;
+	color:#fff;
+	text-align:center;
+	width:100%
+}
+
+.contact h3{
+	color:#fff;
+	font-size:28px;
+	font-weight:600;
+	text-align:center;
+	padding:12px 0;
+	
+}
+
+.sm p{
+display:inline-block;
+color:#000000;
+text-decoration:none;
+margin:18px;
+border: 1px solid #fcf1db;
+background: #fcf1db;
+padding:17px 15px;
+border-radius:20px;
+transition:0.5s;
+}
+
+.sm p:hover{
+	color:#4169e1;
+}
+
+.contact img{
+	height:34px;
+	width:34px;
+	padding:
+	cursor:pointer;
+	display:inline-block;
+	margin-right:12px;
+	text-decoration:none;
+}
+
+.tableview{ 
+	display:table;
+	display:flex;
+	margin:auto;
+}
+
+.right{
+width:45%; 
+display: table-cell;
+text-align:center;
+
+}
+
+.left{
+width:45%; 
+display: table-cell;
+text-align:center;
+}
+
+.footer{
+background: #0b1430;
+text-align:center;
+color:#fff;
+}
+
+.footer p{
+padding:26px 0;
+}
+
+/*MEDIA QUERY OF SMARTPHONES RESPONSIVE DESIGNS*/
+
+@media(max-width: 700px){
+	.text-box h1{
+	font-size:60px;
+}
+	
+	.text-box h3{
+	font-size:32px;
+	margin-top:-27px;
+}
+
+.text-box p{
+	font-size:15px;
+}
+
+.pmc-btn{
+	padding:14px 30px;
+	font-size:15px;
+	margin-top:30px;
+}
+
+nav img{
+	width:71px;
+}
+.nav-links ul li{
+		display:block;
+	}
+	
+.nav-links{
+		position:fixed;
+		background:#ffe5b4;
+		height:100vh;
+		width:0;
+		top:0;
+		right:0;
+		overflow-x:hidden;
+		z-index:2;
+		transition:0.5s;
+}
+
+nav .menu{
+cursor:pointer;
+display:block;
+height:30px;
+width:30px;
+filter: opacity(0.5) drop-shadow(0 0 0 #ffe5b4);
+margin:10px;
+cursor:pointer;
+}
+
+nav .exit{
+position:absolute;
+display:block;
+height:40px;
+width:40px;
+filter: opacity(0.3) drop-shadow(0 0 #ffe5b4 #ffe5b4);
+margin:10px;
+}
+
+.nav-links ul{
+		padding:30px;
+}
+
+/* the styling of the SERVICES section*/
+
+.services h2{
+	font-size:24px;
+}
+
+.half{
+		flex-direction:column;
+	
+}
+	
+.halff{
+		flex-direction:column;
+	
+	}
+
+.about h2{
+		font-size:24px;
+}
+
+.contact h3{
+	font-size:24px;
+}
+
+.our h3{
+	font-size:20px;
+}
+
+.our{
+	flex-direction:column;
+}
+
+.tableview{
+	flex-direction:column;
+}
+
+}
