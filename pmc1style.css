@@ -97,6 +97,16 @@ nav img{
 	transition:1s;
 }
 
+
+nav .exit{
+		display:none;
+	}
+	
+
+nav .menu{
+		display:none;
+}
+
 @media(max-width: 700px){
 	.text-box h1{
 	font-size:60px;
@@ -107,9 +117,56 @@ nav img{
 	margin-top:-25px;
 }
 
-.pmc-btn{
-	padding:14px 30px;
+.text-box p{
+	font-size:15px;
 }
 
+.pmc-btn{
+	padding:14px 30px;
+	font-size:15px;
+}
+
+nav img{
+	width:71px;
+}
+.nav-links ul li{
+		display:block;
+	}
+	
+.nav-links{
+		position:fixed;
+		background:#ffe5b4;
+		height:100vh;
+		width:0;
+		top:0;
+		right:0;
+		overflow-x:hidden;
+		z-index:2;
+		transition:0.5s;
+}
+
+nav .menu{
+cursor:pointer;
+display:block;
+height:30px;
+width:30px;
+filter: opacity(0.5) drop-shadow(0 0 0 #ffe5b4);
+margin:10px;
+cursor:pointer;
+}
+
+nav .exit{
+position:absolute;
+display:block;
+height:40px;
+width:40px;
+filter: opacity(0.3) drop-shadow(0 0 #ffe5b4 #ffe5b4);
+margin:10px;
+}
+
+.nav-links ul{
+		padding:30px;
+}
+	
 
 }
