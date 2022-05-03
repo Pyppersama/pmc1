@@ -97,3 +97,14 @@ nav img{
 	transition:1s;
 }
 
+@media(max-width:650px){
+	.text-box h1{
+	font-size:60px;
+}
+	
+	.text-box h3{
+	font-size:10px;
+}
+
+
+}
