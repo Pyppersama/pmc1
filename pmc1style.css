@@ -103,10 +103,13 @@ nav img{
 }
 	
 	.text-box h3{
-	font-size:35px;
-	margin-top:-5px;
+	font-size:20px;
+	margin-top:-25px;
 }
 
+.pmc-btn{
+	padding:14px 30px;
+}
 
 
 }
