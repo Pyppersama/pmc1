@@ -166,6 +166,7 @@ nav .menu{
 .about{
 	width:90%;
 	margin:auto;
+	margin-top:-40px;
 }
 
 .about h2{
