@@ -285,6 +285,10 @@ color:#fff;
 padding:26px 0;
 }
 
+.contactspace{
+	padding-bottom:15px;
+}
+
 /*MEDIA QUERY OF SMARTPHONES RESPONSIVE DESIGNS*/
 
 @media(max-width: 700px){
