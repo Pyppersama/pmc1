@@ -392,5 +392,9 @@ margin:10px;
 .footer p{
 font-size:17px;
 }
+	
+.abouttotal{
+flex-direction:column;
+}
 
 }
